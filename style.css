@@ -9,7 +9,7 @@ body {
   background-color: rgb(221, 138, 22);
   overflow: hidden;
   list-style: none;
-  margin: 0px 0px 10px 0px;
+  margin: 0px 0px 5px 0px;
   display: flex;
   padding: 40px;
   justify-content: center;
@@ -26,6 +26,69 @@ body {
 
 .nav-links a:hover {
   color: rgb(50, 43, 31);
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.about-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+}
+
+.container h2 {
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+
+.container p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  font-weight: bolder;
+}
+
+.card-set {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  box-shadow: 0 4px 8px 4px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 0;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.card-text {
+  padding: 5px;
+  text-align: center;
+  background-color: seashell;
+}
+
+h3 {
+  margin-left: 10px;
 }
 
 
