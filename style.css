@@ -138,5 +138,9 @@ tr:hover{
   transition: black 0.3s ease;
 }
 
-
+button {
+  background-color: rgb(241, 198, 146);
+  padding: 15px;;
+  border-radius: 20px;
+}
 
